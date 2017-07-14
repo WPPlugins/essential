@@ -1,0 +1,93 @@
+#sliders_frm {
+	margin-top: 9px;
+}
+.ess_slider_frm {
+	padding-top: 6px;
+}
+#slides {
+	margin: 25px 0;
+}
+.ess_slider_frm #slides label {
+	vertical-align: middle;
+	font-size: 90%;
+	color: gray;
+}
+.ess_slider_frm checkbox {
+	border: 1px solid #DDD;
+}
+.attachment-filters {
+	display: none;
+}
+.slide th {
+	padding: 0 10px 6px 0;
+}
+.slide th div {
+	max-height: 140px;
+	overflow: hidden;
+}
+.slide th img {
+	width: 100%;
+}
+.slide th img:hover {
+	cursor: move;
+}
+.slide td {
+	vertical-align: top;
+	padding-top: 0;
+	padding-bottom: 12px;
+}
+.remove_slide:before {
+	font: 20px fontAwesome;
+	content: "\f00d";/* fa-close */
+	position: absolute;
+	margin: 3px;
+	padding: 4px 9px;
+	background: #333333;
+	color: #F27008;
+	cursor: pointer;
+}
+.remove_slide {
+	display: none;
+}
+.slide th:hover .remove_slide {
+	display: block;
+}
+
+/* style item is dragging for sorting */
+.ui-sortable-helper  {
+    padding: 6px;
+}
+.ui-sortable-helper .remove_slide {
+	display: none !important;
+}
+.ui-sortable-placeholder {
+	height: 130px;
+	border: 1px dashed #333333;
+}
+
+.settings tr td {
+	padding: 3px 0;
+}
+.settings tr td:first-child {
+	padding-right: 9px;
+}
+#major-publishing-actions {
+	margin: 0 -12px;
+}
+#shortcode_div .inside {
+	padding-bottom: 0;
+}
+#shortcode_div a.submitdelete:before {
+	font: 14px fontawesome;
+	content:"\f00d";
+	padding-right: 3px;
+}
+.del_btn {
+	background: #d54e21 !important;
+    border-color: #d54e21 !important;
+}
+
+/* setting message */
+.settings-error strong {
+	font-weight: normal;
+}
